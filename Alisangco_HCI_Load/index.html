@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Alisangco's Pass A Load Activity</title>
+</head>
+<body>
+	<div class="lps">
+		<div class="lps-input">
+			<small>Note: Intended For Filipino Citizens Only.</small>
+			<h1>Load Passing System</h1>
+			<form>
+				<label for="your-phone-no">Your Phone Number: </label>
+				<input type="tel" id="your-phone-no" name="your-phone-no" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="XXXX-XXX-XXXX" required>
+				<br><br>
+				<label for="transfer-amount">Transfer (???) Amount of PHP: </label>
+				<input type="number" id="transfer-amount" name="transfer-amount" placeholder="₱???" required>
+				<br><br>
+				<label for="their-phone-number">Recipient's Phone Number: </label>
+				<input type="tel" id="their-phone-no" name="their-phone-no" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="XXXX-XXX-XXXX" required>
+				<br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div class="info-section-div">
+			<div class="your-section-div">
+				<h1>Your Balance</h1>
+				<p>Initial Balance: <p id="initial-balance">₱10000.00</p></p>
+				<p>Deduction From Previous Transactions: <p id="deduction">₱0</p></p>
+				<p>Total Balance: <p id="total-balance">₱0</p></p>
+			</div>
+			<div class="their-section-div">
+				<h1>Recipient's Balance</h1>
+				<p>Recipient's Number: <p id="their-phone-no-output">XXXX-XXX-XXXX</p></p>
+				<p>Amount Received From You: <p id="amount-received">₱0</p></p>
+				<p>Total Amount Received: <p id="total-amount-received">₱0</p></p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+	background: #D6E6F2;
+}
+
+.lps {
+	margin: 10vh;
+	text-align: center;
+}
+
+.lps-input {
+	width: 50%;
+	margin: auto;
+	font-weight: bold;
+	padding-top: 20px;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	font-family: "Helvetica";
+	background: rgba(0, 255, 125, 0.25);
+}
+
+.info-section-div {
+	margin: 10vh;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.your-section-div, .their-section-div {
+	font-weight: bold;
+	padding-left: 20px;
+	border-radius: 20px;
+	padding-right: 20px;
+	font-family: "Helvetica";
+}
+
+.your-section-div {
+	background: rgba(0, 0, 255, 0.25);
+}
+
+.their-section-div {
+	background: rgba(255, 0, 0, 0.25);
+}
+
+.lps-input, .your-section-div, .their-section-div {
+	color: #222222;
+	border: 10px ridge #F5F5F5;
+}
